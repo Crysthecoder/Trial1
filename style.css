@@ -1,21 +1,15 @@
 
-#img-div {
-    position: relative;
-    width: 20px;
-    height: 10px;
-    display: inline-block;
-    overflow: hidden;
+*{
+    
     margin: 0;
-
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-#img-div img{
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    display: block;
-
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(/Users/vishnugupta/Documents/Microverses/Trial 1/Trial1/Trial1/test.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
 }
