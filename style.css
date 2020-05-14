@@ -1,15 +1,21 @@
 
 #img-div {
     position: relative;
-    min-width: 2000px;
-    min-height: 1000px;
-   
+    width: 20px;
+    height: 10px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+
 }
 
-#image {
 
+#img-div img{
     position: absolute;
-    width: 50%;
-    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    display: block;
 
 }
